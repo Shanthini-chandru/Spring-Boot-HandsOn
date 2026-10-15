@@ -11,11 +11,11 @@ public class CourseController {
     @RequestMapping("/courses")
     public List<Course> retrieveAllCourse() {
         return Arrays.asList(
-                new Course(1, "Learn AWS", "Umdemy"),
+                new Course(1, "Learn AWS", "Udemy"),
                 new Course(2, "Learn Git", "Self-learning"),
-                new Course(3, "Learn GitHub", "Umdemy"),
-                new Course(4, "Learn Cloud", "Umdemy"),
-                new Course(5, "Learn DSA", "Umdemy")
+                new Course(3, "Learn GitHub", "Udemy"),
+                new Course(4, "Learn Cloud", "Udemy"),
+                new Course(5, "Learn DSA", "Udemy")
         );
     }
 }
