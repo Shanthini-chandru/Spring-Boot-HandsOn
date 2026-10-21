@@ -15,7 +15,8 @@ public class CourseController {
                 new Course(2, "Learn Git", "Self-learning"),
                 new Course(3, "Learn GitHub", "Udemy"),
                 new Course(4, "Learn Cloud", "Udemy"),
-                new Course(5, "Learn DSA", "Udemy")
+                new Course(5, "Learn DSA", "Udemy"),
+                new Course(6, "Learn Asure", "Udemy")
         );
     }
 }
